@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    width: 100vw;
+  }
+  
+  
+  nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+    background-color: black;
+    color: white;
+    align-items: center;
+    width: 100vw;
+    height: 70px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  nav>div{
+    display: flex;
+    width: 17%;
+    justify-content: space-between;
+  }
+  h1,p{
+    color: white;
+    text-decoration: none;
+  }
+  .link{
+    text-decoration: none;
+  }
